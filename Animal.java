@@ -2,7 +2,7 @@ public class Animal {
     private String name;
     private int age;
 
-    // Constructor Overloading
+    
     public Animal() {
         this.name = "Unknown";
         this.age = 0;
@@ -13,7 +13,7 @@ public class Animal {
         this.age = age;
     }
 
-    // Getter dan Setter
+    
     public String getName() {
         return name;
     }
@@ -34,7 +34,7 @@ public class Animal {
         }
     }
 
-    // Polymorphism: Method ini akan di-override
+    
     public void makeSound() {
         System.out.println("Hewan dapat mengeluarkan suara.");
     }

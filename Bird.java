@@ -1,13 +1,13 @@
 public class Bird extends Animal {
     private boolean canFly;
 
-    // Constructor
+    
     public Bird(String name, int age, boolean canFly) {
         super(name, age);
         this.canFly = canFly;
     }
 
-    // Getter dan Setter
+    
     public boolean getCanFly() {
         return canFly;
     }
@@ -16,7 +16,7 @@ public class Bird extends Animal {
         this.canFly = canFly;
     }
 
-    // Overriding method makeSound
+    
     @Override
     public void makeSound() {
         System.out.println("Suara burung: Tweet Tweet!");

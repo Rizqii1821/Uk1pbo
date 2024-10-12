@@ -1,13 +1,13 @@
 public class Dog extends Animal {
     private String breed;
 
-    // Constructor
+    
     public Dog(String name, int age, String breed) {
-        super(name, age);  // Memanggil constructor superclass
+        super(name, age);  
         this.breed = breed;
     }
 
-    // Getter dan Setter
+    
     public String getBreed() {
         return breed;
     }
@@ -16,7 +16,7 @@ public class Dog extends Animal {
         this.breed = breed;
     }
 
-    // Overriding method makeSound
+    
     @Override
     public void makeSound() {
         System.out.println("Suara anjing: Gug gug!");
